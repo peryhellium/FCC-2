@@ -1,0 +1,136 @@
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand color-me" href="#home">Home</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div> <!-- container -->
+  </nav>
+    
+  <header class="jumbotron text-center" id="home">
+    <div class="container home-intro">
+      <h1>Michał Głupczyk</h1>
+      <hr class="separator separator-white">
+        <h3>web developer</h3>
+    </div>
+  </header>
+
+<div id="about-me" class="content-container">
+    <div class="container">
+      <div class="row text-center">
+        <h1>about me</h1>
+        <hr class="separator separator-white">
+        <div class="col-md-5 col-md-offset-1">
+          <p>
+            My name is Michał, I am an aspiring web developer form Kraków. I love developing clean and elegant dynamic websites and web applications. I've learned languages such as HTML, CSS, JavaScript and continually learn much more.
+          </p> 
+        </div>
+        
+        <div class="col-md-5">
+          <p>
+            I have worked with popular frameworks such as Bootstrap and libraries such as jQuery. Check out my portfolio and if you're interested, check out my contact area and send me an email.
+          </p>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- content section -->
+
+<section id="portfolio" class="content-container">
+    <div class="container">
+      <div class="row text-center">
+        <h1>
+          <span class="portblue">portfolio</span>
+        </h1>
+        <hr class="separator separator-blue">
+      </div>  <!-- row end -->
+      <div class="row">
+        <div class="col-md-6 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="#">
+          <figcaption>
+            <h2>project #1</h2>
+            <p>coming soon</p>
+            <a href="#" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="#">
+          <figcaption>
+            <h2>project #2</h2>
+            <p>coming soon</p>
+            <a href="#" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-6 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="#">
+          <figcaption>
+            <h2>project #3</h2>
+            <p>coming soon</p>
+            <a href="#" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- end column -->
+      <div class="col-md-6 portfolio-item">
+        <figure class="effect-portfolio">
+          <img class="img-responsive" src="#">
+          <figcaption>
+            <h2>project #4</h2>
+            <p>coming soon</p>
+            <a href="#" target='_blank'>View more</a>
+          </figcaption>
+        </figure>
+      </div>
+      <!-- end column -->
+    </div>
+    <!-- end row -->
+  </div>
+  <!-- end container -->
+</section>
+<div id="contact" class="content-container">
+    <div class="container">
+      <h1 class="text-center">find me here</h1>
+      <hr class="separator separator-white">
+        <ul class="social-media text-center">
+          <li>
+            <a href="https://www.facebook.com/michal.regis" target="_blank" id="facebook"><i class="fa fa-facebook-official"></i></a>
+          </li>
+          <li>
+          <a href="https://github.com/peryhellium" target="_blank" id="github"><i class="fa fa-github-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.com/peryhellium" target="_blank" id="ffc"><i class="fa fa-fire"></i></a>
+          </li>
+          <li>
+            <a href="http://www.linkedin.com/in/michalglupczyk" target="_blank" id="linkedin"><i class="fa fa-linkedin-square"></i></a>
+          </li>
+          <li>
+            <a href="http://codepen.io/lordregis/" target="_blank" id="linkedin"><i class="fa fa-codepen"></i></a>
+          </li>
+        </ul>
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- contact id -->
+<footer class='footer'>
+  <div class="container">
+    <p class="text-center">created by Michał Głupczyk</p>
+  </div>
+</footer>
